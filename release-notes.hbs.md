@@ -109,6 +109,7 @@ This release has the following security fixes, listed by component and area.
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-26966">CVE-2023-26966</a></li>
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-26965">CVE-2023-26965</a></li>
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-2612">CVE-2023-2612</a></li>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-26114">CVE-2023-26114</a></li>
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-2610">CVE-2023-2610</a></li>
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-2609">CVE-2023-2609</a></li>
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-2603">CVE-2023-2603</a></li>
@@ -275,12 +276,6 @@ This release has the following known issues, listed by component and area.
 
 - When using vSphere sources in Eventing, the vsphere-source is using a high number of
   informers to alleviate load on the API server. This causes high memory use.
-
-#### <a id='1-6-3-learningcenter-ki'></a> v1.6.3 Known issues: Learning Center
-
-- [CVE-2023-26114](https://nvd.nist.gov/vuln/detail/CVE-2023-26114):
-  Versions of VS Code server before v4.10.1 are vulnerable to Missing Origin Validation in WebSocket handshakes.
-  For mitigation steps, see [Known issues for Learning Center](./learning-center/known-issues.hbs.md).
 
 #### <a id='1-6-3-stk-ki'></a> v1.6.3 Known issues: Services Toolkit
 
