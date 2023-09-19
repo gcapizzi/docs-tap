@@ -380,7 +380,22 @@ For a diagram showing the packages contained in each profile, see
    <td>
    </td>
   </tr>
-  <td>Cloud Native Runtimes
+  <tr>
+   <td>cert-manager
+   </td>
+   <td>&check;
+   </td>
+   <td>&check;
+   </td>
+   <td>&check;
+   </td>
+   <td>&check;
+   </td>
+   <td>&check;
+   </td>
+  </tr>
+  <tr>
+   <td>Cloud Native Runtimes
    </td>
    <td>&check;
    </td>
@@ -391,6 +406,20 @@ For a diagram showing the packages contained in each profile, see
    <td>&check;
    </td>
    <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Contour
+   </td>
+   <td>&check;
+   </td>
+   <td>&check;
+   </td>
+   <td>&check;
+   </td>
+   <td>&check;
+   </td>
+   <td>&check;
    </td>
   </tr>
   <tr>
