@@ -237,6 +237,14 @@ This release has the following known issues, listed by component and area.
 - Tanzu Application Platform v1.6.3 is not supported with Tanzu Kubernetes releases (TKR) v1.26.5
   on vSphere with Tanzu v8.
 
+#### <a id='1-6-3-app-config-srvc-ki'></a> v1.6.3 Known issues: Application Configuration Service
+
+- Client applications that include the `spring-cloud-config-client` dependency might fail to start or
+  properly load the configuration that Application Configuration Service produced.
+
+- Installation might fail because the pod security context does not perfectly adhere to the
+  restricted pod security standard.
+
 #### <a id='1-6-3-amr-obs-ce-hndlr-ki'></a> v1.6.3 Known issues: Artifact Metadata Repository Observer and CloudEvent Handler
 
 - Periodic reconciliation or restarting of the AMR Observer causes reattempted posting of
@@ -578,6 +586,14 @@ The following issues, listed by component and area, are resolved in this release
 ### <a id='1-6-2-known-issues'></a> v1.6.2 Known issues
 
 This release has the following known issues, listed by component and area.
+
+#### <a id='1-6-2-app-config-srvc-ki'></a> v1.6.2 Known issues: Application Configuration Service
+
+- Client applications that include the `spring-cloud-config-client` dependency might fail to start or
+  properly load the configuration that Application Configuration Service produced.
+
+- Installation might fail because the pod security context does not perfectly adhere to the
+  restricted pod security standard.
 
 #### <a id='1-6-2-amr-obs-ce-hndlr-ki'></a> v1.6.2 Known issues: Artifact Metadata Repository Observer and CloudEvent Handler
 
@@ -1439,6 +1455,14 @@ This release has the following known issues, listed by component and area.
 
 > **Note** Starting in this release, the release notes list known issues in every release until
 > they are resolved.
+
+#### <a id='1-6-1-app-config-srvc-ki'></a> v1.6.1 Known issues: Application Configuration Service
+
+- Client applications that include the `spring-cloud-config-client` dependency might fail to start or
+  properly load the configuration that Application Configuration Service produced.
+
+- Installation might fail because the pod security context does not perfectly adhere to the
+  restricted pod security standard.
 
 #### <a id='1-6-1-amr-obs-ce-hndlr-ki'></a> v1.6.1 Known issues: Artifact Metadata Repository Observer and CloudEvent Handler
 
